@@ -34,3 +34,7 @@
     --text-tertiary: #8F8881;
     --text-highlight: #E43A12;
 }
+
+body {
+    overflow: hidden;
+}
