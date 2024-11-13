@@ -50,3 +50,16 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/* utility classes */
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-1 {
+    flex: 2;
+}
