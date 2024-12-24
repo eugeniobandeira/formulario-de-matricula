@@ -1,7 +1,5 @@
 #app {
     display: grid;
-    grid-template-columns: 51.25% 48.75%;
-
     height: 100vh;
     overflow: hidden;
 }
@@ -47,5 +45,19 @@ aside {
         & span {
             color: var(--text-highlight);
         }
+    }
+}
+
+.desktop-only {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    #app {
+        grid-template-columns: 51.25% 48.75%;
+    }
+
+    .desktop-only {
+        display: initial;
     }
 }
